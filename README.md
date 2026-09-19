@@ -33,22 +33,23 @@ The main users of RepRight would be people who exercise and want feedback on the
 
 Potential users include:
 
-Beginner gym users who are still learning proper exercise form
-Experienced lifters who want to improve technique
-Athletes who use strength training as part of their training
-People who work out at home without access to a personal trainer
-Personal trainers who want another tool to help evaluate clients
-Coaches who want to review athletes’ movement patterns
-Fitness enthusiasts who want to track improvement over time
+Beginner gym users who are still learning proper exercise form.
+Experienced lifters who want to improve technique.
+Athletes who use strength training as part of their training.
+People who work out at home without access to a personal trainer.
+Personal trainers who want another tool to help evaluate clients.
+Coaches who want to review athletes’ movement patterns.
+Fitness enthusiasts who want to track improvement over time.
 
 RepRight would be especially useful for people who want guidance but do not always have a coach or trainer available.
 
 5. What are the potential features, functions, or other important details?
 
 Some possible features of RepRight include:
-Video Upload
+Video upload.
 Users can upload a video of themselves performing an exercise.
-Exercise Selection
+Exercise selection.
+
 Users can choose which exercise they are performing, such as:
 
 Squat
