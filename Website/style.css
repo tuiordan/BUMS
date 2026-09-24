@@ -6,4 +6,17 @@ body {
 }
 
 
+/* Team photographs */
+
+.team-photo {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
 
