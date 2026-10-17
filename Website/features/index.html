@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>RepRight | Features</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Bootstrap Icons -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- RepRight Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+
+<body>
+
+    <!-- Navigation Bar -->
+
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top"
+         style="background-color: #0B0F14;">
+
+        <div class="container">
+
+            <a class="navbar-brand"
+               href="../index.html">
+
+                <img
+                    src="../img/RepRight-text-icon-logo.png"
+                    alt="RepRight logo"
+                    width="130"
+                    class="img-fluid"
+                >
+
+            </a>
+
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu"
+                aria-controls="navbarMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+
+            <div class="collapse navbar-collapse"
+                 id="navbarMenu">
+
+                <ul class="navbar-nav ms-auto align-items-sm-center">
+
+                    <li class="nav-item ms-sm-3">
+
+                        <a class="nav-link"
+                           href="../index.html">
+                            Home
+                        </a>
+
+                    </li>
+
+
+                    <li class="nav-item ms-sm-3">
+
+                        <a class="nav-link"
+                           href="../design_artifacts.html">
+                            Design Artifacts
+                        </a>
+
+                    </li>
+
+
+                    <li class="nav-item ms-sm-3">
+
+                        <a class="nav-link active"
+                           href="index.html">
+                            Features
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- Main Content -->
+
+    <main>
+
+        <section class="py-5">
+
+            <div class="container">
+
+
+                <!-- Page Heading -->
+
+                <div class="text-center mb-5">
+
+                    <p class="fw-bold text-uppercase mb-2"
+                       style="color: #A3E635;">
+                        Software Engineering Assignment 2
+                    </p>
+
+                    <h1 class="display-5 fw-bold">
+                        Prioritized Feature List
+                    </h1>
+
+                    <p class="lead text-secondary">
+                        RepRight's proposed features are ordered from
+                        highest to lowest priority based on the product
+                        concept, personas, scenarios, and user stories.
+                    </p>
+
+                </div>
+
+
+                <!-- MVP Explanation -->
+
+                <div class="card text-white border-secondary mb-5"
+                     style="background-color: #171C23;">
+
+                    <div class="card-body p-4">
+
+                        <div class="d-flex align-items-start">
+
+                            <i class="bi bi-star-fill fs-3 me-3"
+                               style="color: #A3E635;"></i>
+
+                            <div>
+
+                                <h2 class="h4">
+                                    Minimum Viable Product
+                                </h2>
+
+                                <p class="text-secondary mb-0">
+                                    Features marked with the
+                                    <span class="fw-bold"
+                                          style="color: #A3E635;">
+                                        MVP
+                                    </span>
+                                    label represent the core functionality
+                                    needed for RepRight's first usable version.
+                                    Additional features can be introduced
+                                    after the main analysis workflow is working
+                                    reliably.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =====================================================
+                     FEATURE 1
+                ====================================================== -->
+
+                <div class="card text-white border-secondary mb-4"
+                     style="background-color: #171C23;">
+
+                    <div class="card-body p-4">
+
+                        <div class="d-flex justify-content-between
+                                    align-items-start flex-wrap mb-3">
+
+                            <div>
+
+                                <p class="fw-bold mb-1"
+                                   style="color: #A3E635;">
+                                    PRIORITY 1
+                                </p>
+
+                                <h2 class="h3 mb-0">
+                                    AI Exercise Form Analysis
+                                </h2>
+
+                            </div>
+
+                            <span class="badge fs-6 mt-2"
+                                  style="background-color: #A3E635;
+                                         color: #0B0F14;">
+                                MVP
+                            </span>
+
+                        </div>
+
+
+                        <h3 class="h5 mt-4">
+                            Description
+                        </h3>
+
+                        <p class="text-secondary">
+                            RepRight analyzes recorded exercise movements
+                            and identifies possible technique issues visible
+                            in the video.
+                        </p>
+
+
+                        <h3 class="h5">
+                            Related User Stories
+                        </h3>
+
+                        <p class="text-secondary">
+                            As a beginner weightlifter, I want to have my
+                            squat video analyzed so that I can recognize
+                            possible technique mistakes before repeating them.
+                        </p>
+
+                        <p class="text-secondary">
+                            As an experienced weightlifter, I want to receive
+                            movement-specific analysis so that I can identify
+                            subtle changes in my lifting technique.
+                        </p>
+
+
+                        <h3 class="h5">
+                            Constraints
+                        </h3>
+
+                        <p class="text-secondary">
+                            Analysis requires a clear view of the movement,
+                            adequate lighting, and an exercise supported by
+                            the initial model. Results should not claim to
+                            diagnose or prevent injuries.
+                        </p>
+
+
+                        <h3 class="h5">
+                            Comments
+                        </h3>
+
+                        <p class="text-secondary mb-0">
+                            This is RepRight's core product value. The first
+                            version should support a small exercise library
+                            and expand after feedback quality becomes dependable.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =====================================================
+                     FEATURE 2
+                ====================================================== -->
+
+                <div class="card text-white border-secondary mb-4"
+                     style="background-color: #171C23;">
+
+                    <div class="card-body p-4">
+
+                        <div class="d-flex justify-content-between
+                                    align-items-start flex-wrap mb-3">
+
+                            <div>
+
+                                <p class="fw-bold mb-1"
+                                   style="color: #A3E635;">
+                                    PRIORITY 2
+                                </p>
+
+                                <h2 class="h3 mb-0">
+                                    Video Recording and Uploading
+                                </h2>
+
+                            </div>
+
+                            <span class="badge fs-6 mt-2"
+                                  style="background-color: #A3E635;
+                                         color: #0B0F14;">
+                                MVP
+                            </span>
+
+                        </div>
+
+
+                        <h3 class="h5 mt-4">
+                            Description
+                        </h3>
+
+                        <p class="text-secondary">
+                            Users can provide RepRight with an exercise
+                            recording by recording a new video or uploading
+                            an existing one.
+                        </p>
+
+
+                        <h3 class="h5">
+                            Related User Stories
+                        </h3>
+
+                        <p class="text-secondary">
+                            As a gym user, I want to record or upload an
+                            exercise video so that I can get feedback without
+                            needing another person to watch me.
+                        </p>
+
+                        <p class="text-secondary">
+                            As a personal trainer, I want to submit a client
+                            exercise recording so that I can review technique
+                            remotely.
+                        </p>
+
+
+                        <h3 class="h5">
+                            Constraints
+                        </h3>
+
+                        <p class="text-secondary">
+                            RepRight should accept common phone video formats,
+                            use reasonable duration and file-size limits,
+                            and request permission before accessing the camera
+                            or files.
+                        </p>
+
+
+                        <h3 class="h5">
+                            Comments
+                        </h3>
+
+                        <p class="text-secondary mb-0">
+                            Users need a simple and reliable way to provide
+                            video footage before any analysis can take place.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =====================================================
+                     FEATURE 3
+                ====================================================== -->
+
+                <div class="card text-white border-secondary mb-4"
+                     style="background-color: #171C23;">
+
+                    <div class="card-body p-4">
+
+                        <div class="d-flex justify-content-between
+                                    align-items-start flex-wrap mb-3">
+
+                            <div>
+
+                                <p class="fw-bold mb-1"
+                                   style="color: #A3E635;">
+                                    PRIORITY 3
+                                </p>
+
+                                <h2 class="h3 mb-0">
+                                    Personalized Form Feedback
+                                </h2>
+
+                            </div>
+
+                            <span class="badge fs-6 mt-2"
+                                  style="background-color: #A3E635;
+                                         color: #0B0F14;">
+                                MVP
+                            </span>
+
+                        </div>
+
+
+                        <h3 class="h5 mt-4">
+                            Description
+                        </h3>
+
+                        <p class="text-secondary">
+                            After analysis, RepRight provides understandable
+                            feedback based on the movement visible in the
+                            user's exercise recording.
+                        </p>
+
+
+                        <h3 class="h5">
+                            Related User Stories
+                        </h3>
+
+                        <p class="text-secondary">
+                            As a beginner weightlifter, I want to see simple
+                            corrections after my analysis so that I can
+                            understand how to improve on my next set.
+                        </p>
+
+                        <p class="text-secondary">
+                            As a college athlete, I want to receive clear
+                            feedback about my exercise technique so that
+                            I can make useful training adjustments.
+                        </p>
+
+
+                        <h3 class="h5">
+                            Constraints
+                        </h3>
+
+                        <p class="text-secondary">
+                            Feedback should be understandable, based on
+                            observable video evidence, and presented as
+                            general fitness guidance rather than medical advice.
+                        </p>
+
+
+                        <h3 class="h5">
+                            Comments
+                        </h3>
+
+                        <p class="text-secondary mb-0">
+                            RepRight should show the most important issue
+                            first and provide a small number of actionable
+                            suggestions instead of overwhelming the user.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =====================================================
+                     FEATURE 4
+                ====================================================== -->
+
+                <div class="card text-white border-secondary mb-4"
+                     style="background-color: #171C23;">
+
+                    <div class="card-body p-4">
+
+                        <div class="d-flex justify-content-between
+                                    align-items-start flex-wrap mb-3">
+
+                            <div>
+
+                                <p class="fw-bold mb-1"
+                                   style="color: #A3E635;">
+                                    PRIORITY 4
+                                </p>
+
+                                <h2 class="h3 mb-0">
+                                    Exercise Selection
+                                </h2>
+
+                            </div>
+
+                            <span class="badge fs-6 mt-2"
+                                  style="background-color: #A3E635;
+                                         color: #0B0F14;">
+                                MVP
+                            </span>
+
+                        </div>
+
+
+                        <h3 class="h5 mt-4">
+                            Description
+                        </h3>
+
+                        <p class="text-secondary">
+                            Users identify the exercise performed so that
+                            RepRight can apply the appropriate analysis.
+                        </p>
+
+
+                        <h3 class="h5">
+                            Related User Stories
+                        </h3>
+
+                        <p class="text-secondary">
+                            As a gym user, I want to choose the exercise
+                            I performed so that I can receive feedback
+                            relevant to that movement.
+                        </p>
+
+                        <p class="text-secondary">
+                            As a beginner weightlifter, I want to find the
+                            squat exercise easily so that I can analyze my
+                            first workout without confusion.
+                        </p>
+
+
+                        <h3 class="h5">
+                            Constraints
+                        </h3>
+
+                        <p class="text-secondary">
+                            The first version can support a limited selection
+                            of common strength exercises. Unsupported
+                            movements must be clearly identified.
+                        </p>
+
+
+                        <h3 class="h5">
+                            Comments
+                        </h3>
+
+                        <p class="text-secondary mb-0">
+                            A simple exercise search or short categorized
+                            list is sufficient for the first version.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =====================================================
+                     FEATURE 5
+                ====================================================== -->
+
+                <div class="card text-white border-secondary mb-4"
+                     style="background-color: #171C23;">
+
+                    <div class="card-body p-4">
+
+                        <div class="d-flex justify-content-between
+                                    align-items-start flex-wrap mb-3">
+
+                            <div>
+
+                                <p class="fw-bold mb-1"
+                                   style="color: #A3E635;">
+                                    PRIORITY 5
+                                </p>
+
+                                <h2 class="h3 mb-0">
+                                    Basic User Interface
+                                </h2>
+
+                            </div>
+
+                            <span class="badge fs-6 mt-2"
+                                  style="background-color: #A3E635;
+                                         color: #0B0F14;">
+                                MVP
+                            </span>
+
+                        </div>
+
+
+                        <h3 class="h5 mt-4">
+                            Description
+                        </h3>
+
+                        <p class="text-secondary">
+                            RepRight provides a simple interface that allows
+                            users to move through the main analysis workflow
+                            without unnecessary complexity.
+                        </p>
+
+
+                        <h3 class="h5">
+                            Related User Stories
+                        </h3>
+
+                        <p class="text-secondary">
+                            As a new user, I want to find the upload and
+                            analysis functions quickly so that I can use
+                            RepRight without prior instruction.
+                        </p>
+
+                        <p class="text-secondary">
+                            As a returning user, I want to understand what
+                            to do next on each screen so that I can complete
+                            a form check with minimal effort.
+                        </p>
+
+
+                        <h3 class="h5">
+                            Constraints
+                        </h3>
+
+                        <p class="text-secondary">
+                            The interface should work on typical phone
+                            screens, use readable labels, and clearly show
+                            upload, processing, and error states.
+                        </p>
+
+
+                        <h3 class="h5">
+                            Comments
+                        </h3>
+
+                        <p class="text-secondary mb-0">
+                            The core workflow is:
+                            choose exercise → upload or record video →
+                            review feedback.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =====================================================
+                     FEATURE 6
+                ====================================================== -->
+
+                <div class="card text-white border-secondary mb-4"
+                     style="background-color: #171C23;">
+
+                    <div class="card-body p-4">
+
+                        <p class="fw-bold mb-1"
+                           style="color: #38BDF8;">
+                            PRIORITY 6
+                        </p>
+
+                        <h2 class="h3">
+                            Workout History
+                        </h2>
+
+                        <h3 class="h5 mt-4">
+                            Description
+                        </h3>
+
+                        <p class="text-secondary">
+                            Users can save previous analyses and return
+                            to earlier workout sessions.
+                        </p>
+
+                        <h3 class="h5">
+                            Related User Stories
+                        </h3>
+
+                        <p class="text-secondary">
+                            As a regular gym user, I want to save past
+                            analyses so that I can review an earlier workout.
+                        </p>
+
+                        <p class="text-secondary">
+                            As a college athlete, I want to see previous
+                            recorded sessions so that I can refer back to
+                            earlier technique notes.
+                        </p>
+
+                        <h3 class="h5">
+                            Constraints
+                        </h3>
+
+                        <p class="text-secondary">
+                            History requires storage, privacy controls,
+                            and a way to identify individual sessions.
+                        </p>
+
+                        <h3 class="h5">
+                            Comments
+                        </h3>
+
+                        <p class="text-secondary mb-0">
+                            This feature is useful after launch, but basic
+                            exercise feedback can function without saved history.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =====================================================
+                     FEATURE 7
+                ====================================================== -->
+
+                <div class="card text-white border-secondary mb-4"
+                     style="background-color: #171C23;">
+
+                    <div class="card-body p-4">
+
+                        <p class="fw-bold mb-1"
+                           style="color: #38BDF8;">
+                            PRIORITY 7
+                        </p>
+
+                        <h2 class="h3">
+                            Progress Tracking
+                        </h2>
+
+                        <h3 class="h5 mt-4">
+                            Description
+                        </h3>
+
+                        <p class="text-secondary">
+                            Users can review changes in technique across
+                            multiple workout sessions.
+                        </p>
+
+                        <h3 class="h5">
+                            Related User Stories
+                        </h3>
+
+                        <p class="text-secondary">
+                            As a beginner weightlifter, I want to see changes
+                            in my technique over time so that I can tell
+                            whether I am improving.
+                        </p>
+
+                        <p class="text-secondary">
+                            As a college athlete, I want to follow technique
+                            consistency across workouts so that I can spot
+                            patterns in my training.
+                        </p>
+
+                        <h3 class="h5">
+                            Constraints
+                        </h3>
+
+                        <p class="text-secondary">
+                            Progress measures should compare similar exercises
+                            and analysis criteria and should not present
+                            uncertain scores as exact measures of improvement.
+                        </p>
+
+                        <h3 class="h5">
+                            Comments
+                        </h3>
+
+                        <p class="text-secondary mb-0">
+                            A timeline of repeated analyses may initially be
+                            more useful than a complex numerical score.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =====================================================
+                     FEATURE 8
+                ====================================================== -->
+
+                <div class="card text-white border-secondary mb-4"
+                     style="background-color: #171C23;">
+
+                    <div class="card-body p-4">
+
+                        <p class="fw-bold mb-1"
+                           style="color: #38BDF8;">
+                            PRIORITY 8
+                        </p>
+
+                        <h2 class="h3">
+                            Video Comparison
+                        </h2>
+
+                        <h3 class="h5 mt-4">
+                            Description
+                        </h3>
+
+                        <p class="text-secondary">
+                            Users can compare two recordings of the same
+                            exercise to identify visible differences.
+                        </p>
+
+                        <h3 class="h5">
+                            Related User Stories
+                        </h3>
+
+                        <p class="text-secondary">
+                            As an experienced weightlifter, I want to compare
+                            two deadlift videos so that I can see differences
+                            between attempts.
+                        </p>
+
+                        <p class="text-secondary">
+                            As a beginner weightlifter, I want to view my
+                            old and new squat recordings together so that
+                            I can notice what I changed.
+                        </p>
+
+                        <h3 class="h5">
+                            Constraints
+                        </h3>
+
+                        <p class="text-secondary">
+                            Comparisons should use the same exercise and make
+                            differences in camera angle or video quality clear.
+                        </p>
+
+                        <h3 class="h5">
+                            Comments
+                        </h3>
+
+                        <p class="text-secondary mb-0">
+                            Side-by-side playback and simple annotations can
+                            be considered in a later release.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =====================================================
+                     FEATURE 9
+                ====================================================== -->
+
+                <div class="card text-white border-secondary mb-4"
+                     style="background-color: #171C23;">
+
+                    <div class="card-body p-4">
+
+                        <p class="fw-bold mb-1"
+                           style="color: #38BDF8;">
+                            PRIORITY 9
+                        </p>
+
+                        <h2 class="h3">
+                            Exercise Tutorials
+                        </h2>
+
+                        <h3 class="h5 mt-4">
+                            Description
+                        </h3>
+
+                        <p class="text-secondary">
+                            RepRight provides basic instructions and
+                            demonstrations for supported exercises.
+                        </p>
+
+                        <h3 class="h5">
+                            Related User Stories
+                        </h3>
+
+                        <p class="text-secondary">
+                            As a beginner weightlifter, I want to look up
+                            basic exercise instructions so that I can learn
+                            how a movement should be performed.
+                        </p>
+
+                        <p class="text-secondary">
+                            As a casual gym user, I want to review a short
+                            demonstration so that I can feel more confident
+                            trying an unfamiliar exercise.
+                        </p>
+
+                        <h3 class="h5">
+                            Constraints
+                        </h3>
+
+                        <p class="text-secondary">
+                            Tutorials should be reviewed for accuracy and
+                            clearly separated from personalized AI analysis.
+                        </p>
+
+                        <h3 class="h5">
+                            Comments
+                        </h3>
+
+                        <p class="text-secondary mb-0">
+                            Begin with concise instructions for exercises
+                            supported by the analysis system.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =====================================================
+                     FEATURE 10
+                ====================================================== -->
+
+                <div class="card text-white border-secondary mb-4"
+                     style="background-color: #171C23;">
+
+                    <div class="card-body p-4">
+
+                        <p class="fw-bold mb-1"
+                           style="color: #38BDF8;">
+                            PRIORITY 10
+                        </p>
+
+                        <h2 class="h3">
+                            Coach and Trainer Sharing
+                        </h2>
+
+                        <h3 class="h5 mt-4">
+                            Description
+                        </h3>
+
+                        <p class="text-secondary">
+                            Users can share selected workout analyses with
+                            a coach or trainer.
+                        </p>
+
+                        <h3 class="h5">
+                            Related User Stories
+                        </h3>
+
+                        <p class="text-secondary">
+                            As a college athlete, I want to share an analysis
+                            with my coach so that I can discuss technique
+                            during training.
+                        </p>
+
+                        <p class="text-secondary">
+                            As a personal trainer, I want to receive a client
+                            video and feedback report so that I can make
+                            coaching suggestions between sessions.
+                        </p>
+
+                        <h3 class="h5">
+                            Constraints
+                        </h3>
+
+                        <p class="text-secondary">
+                            Sharing must require user permission, provide
+                            clear access controls, and allow shared access
+                            to be removed.
+                        </p>
+
+                        <h3 class="h5">
+                            Comments
+                        </h3>
+
+                        <p class="text-secondary mb-0">
+                            A private link or simple export can be considered
+                            before developing complete in-app messaging.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =====================================================
+                     FEATURE 11
+                ====================================================== -->
+
+                <div class="card text-white border-secondary mb-4"
+                     style="background-color: #171C23;">
+
+                    <div class="card-body p-4">
+
+                        <p class="fw-bold mb-1"
+                           style="color: #38BDF8;">
+                            PRIORITY 11
+                        </p>
+
+                        <h2 class="h3">
+                            Customizable Feedback
+                        </h2>
+
+                        <h3 class="h5 mt-4">
+                            Description
+                        </h3>
+
+                        <p class="text-secondary">
+                            Users can adjust the amount and complexity
+                            of the feedback presented by RepRight.
+                        </p>
+
+                        <h3 class="h5">
+                            Related User Stories
+                        </h3>
+
+                        <p class="text-secondary">
+                            As an experienced weightlifter, I want to choose
+                            a more detailed explanation so that I can focus
+                            on the technical information I need.
+                        </p>
+
+                        <p class="text-secondary">
+                            As a beginner weightlifter, I want to keep
+                            feedback short and simple so that I can avoid
+                            confusing terminology.
+                        </p>
+
+                        <h3 class="h5">
+                            Constraints
+                        </h3>
+
+                        <p class="text-secondary">
+                            Customization must not hide important
+                            qualifications about uncertain analysis results.
+                        </p>
+
+                        <h3 class="h5">
+                            Comments
+                        </h3>
+
+                        <p class="text-secondary mb-0">
+                            Possible modes include beginner-friendly and
+                            detailed feedback. This feature is not essential
+                            for the MVP.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =====================================================
+                     FEATURE 12
+                ====================================================== -->
+
+                <div class="card text-white border-secondary mb-5"
+                     style="background-color: #171C23;">
+
+                    <div class="card-body p-4">
+
+                        <p class="fw-bold mb-1"
+                           style="color: #38BDF8;">
+                            PRIORITY 12
+                        </p>
+
+                        <h2 class="h3">
+                            Client Management for Trainers
+                        </h2>
+
+                        <h3 class="h5 mt-4">
+                            Description
+                        </h3>
+
+                        <p class="text-secondary">
+                            Trainers can organize and review exercise
+                            information for multiple clients separately.
+                        </p>
+
+                        <h3 class="h5">
+                            Related User Stories
+                        </h3>
+
+                        <p class="text-secondary">
+                            As a personal trainer, I want to organize several
+                            clients in one place so that I can review their
+                            recordings efficiently.
+                        </p>
+
+                        <p class="text-secondary">
+                            As a personal trainer, I want to track each
+                            client separately so that I can avoid mixing
+                            up workout notes.
+                        </p>
+
+                        <h3 class="h5">
+                            Constraints
+                        </h3>
+
+                        <p class="text-secondary">
+                            Client data requires secure account permissions
+                            and appropriate privacy handling.
+                        </p>
+
+                        <h3 class="h5">
+                            Comments
+                        </h3>
+
+                        <p class="text-secondary mb-0">
+                            This is an advanced trainer workflow and should
+                            be developed after the individual-user experience
+                            is working well.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =====================================================
+                     FEATURE DEFINITION PROCESS
+                ====================================================== -->
+
+                <section class="mt-5">
+
+                    <div class="text-center mb-5">
+
+                        <p class="fw-bold text-uppercase mb-2"
+                           style="color: #A3E635;">
+                            Design Process
+                        </p>
+
+                        <h2 class="display-6 fw-bold">
+                            Feature Definition Process
+                        </h2>
+
+                        <p class="text-secondary">
+                            Evidence of the team's process for grouping
+                            user stories, prioritizing features, and
+                            organizing the RepRight development workflow.
+                        </p>
+
+                    </div>
+
+
+                    <div class="row g-4">
+
+
+                        <!-- Jira Backlog Screenshot -->
+
+                        <div class="col-12">
+
+                            <div class="card text-white border-secondary"
+                                 style="background-color: #171C23;">
+
+                                <div class="card-body p-4">
+
+                                    <img
+                                        src="../img/process/jira_backlog.png"
+                                        alt="RepRight Jira backlog showing user stories grouped into features"
+                                        class="img-fluid rounded w-100"
+                                    >
+
+                                    <p class="text-secondary text-center mt-3 mb-0">
+                                        <strong>Figure 1.</strong>
+                                        Grouping related user stories into proposed
+                                        RepRight features in Jira.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Jira Feature Priority Screenshot -->
+
+                        <div class="col-12">
+
+                            <div class="card text-white border-secondary"
+                                 style="background-color: #171C23;">
+
+                                <div class="card-body p-4">
+
+                                    <img
+                                        src="../img/process/jira_list.png"
+                                        alt="RepRight Jira feature list showing feature priorities"
+                                        class="img-fluid rounded w-100"
+                                    >
+
+                                    <p class="text-secondary text-center mt-3 mb-0">
+                                        <strong>Figure 2.</strong>
+                                        Reviewing and prioritizing RepRight features,
+                                        including the highest-priority MVP features.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Jira Board Screenshot -->
+
+                        <div class="col-12">
+
+                            <div class="card text-white border-secondary"
+                                 style="background-color: #171C23;">
+
+                                <div class="card-body p-4">
+
+                                    <img
+                                        src="../img/process/jira_board.png"
+                                        alt="RepRight Jira board showing user stories prepared for development"
+                                        class="img-fluid rounded w-100"
+                                    >
+
+                                    <p class="text-secondary text-center mt-3 mb-0">
+                                        <strong>Figure 3.</strong>
+                                        Organizing the resulting user stories on the
+                                        Jira board for the planned development workflow.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Team Photo -->
+
+                        <div class="col-12">
+
+                            <div class="card text-white border-secondary"
+                                 style="background-color: #171C23;">
+
+                                <div class="card-body p-4">
+
+                                    <img
+                                        src="../img/process/team_picture.jpg"
+                                        alt="RepRight team working together on the project"
+                                        class="img-fluid rounded w-100"
+                                    >
+
+                                    <p class="text-secondary text-center mt-3 mb-0">
+                                        <strong>Figure 4.</strong>
+                                        The RepRight team working together to review
+                                        user stories, organize features, and discuss
+                                        product priorities.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <!-- Bottom Navigation -->
+
+                <div class="d-flex justify-content-between mt-5">
+
+                    <a href="../user_stories/index.html"
+                       class="btn btn-outline-light">
+
+                        <i class="bi bi-arrow-left me-2"></i>
+                        User Stories
+
+                    </a>
+
+
+                    <a href="../design_artifacts.html"
+                       class="btn fw-bold"
+                       style="background-color: #A3E635;
+                              color: #0B0F14;">
+
+                        Design Artifacts
+
+                        <i class="bi bi-arrow-right ms-2"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Bootstrap 5 JavaScript -->
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+
+</html>
